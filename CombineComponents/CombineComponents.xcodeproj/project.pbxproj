@@ -18,6 +18,7 @@
 		162B00BA2779097B008EB473 /* CombineComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B00B92779097B008EB473 /* CombineComponentsUITests.swift */; };
 		162B00BC2779097B008EB473 /* CombineComponentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B00BB2779097B008EB473 /* CombineComponentsUITestsLaunchTests.swift */; };
 		162B00C927790A1F008EB473 /* EventPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B00C827790A1F008EB473 /* EventPublisher.swift */; };
+		162B00CB277919A9008EB473 /* UITextField+EventPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162B00CA277919A9008EB473 /* UITextField+EventPublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		162B00B92779097B008EB473 /* CombineComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineComponentsUITests.swift; sourceTree = "<group>"; };
 		162B00BB2779097B008EB473 /* CombineComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		162B00C827790A1F008EB473 /* EventPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPublisher.swift; sourceTree = "<group>"; };
+		162B00CA277919A9008EB473 /* UITextField+EventPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+EventPublisher.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				162B00A62779097B008EB473 /* Info.plist */,
 				162B009E27790979008EB473 /* CombineComponents.xcdatamodeld */,
 				162B00C827790A1F008EB473 /* EventPublisher.swift */,
+				162B00CA277919A9008EB473 /* UITextField+EventPublisher.swift */,
 			);
 			path = CombineComponents;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162B00CB277919A9008EB473 /* UITextField+EventPublisher.swift in Sources */,
 				162B009A27790979008EB473 /* ViewController.swift in Sources */,
 				162B00C927790A1F008EB473 /* EventPublisher.swift in Sources */,
 				162B00A027790979008EB473 /* CombineComponents.xcdatamodeld in Sources */,
